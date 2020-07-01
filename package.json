@@ -11,7 +11,7 @@
     "http-server"
   ],
   "scripts": {
-    "test": "jest --coverage",
+    "test": "jest",
     "test:watch": "jest --watchAll",
     "start": "tsc & node dist/index.js",
     "dev": "tsc-watch --onSuccess \"node ./dist/index.js\""
