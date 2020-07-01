@@ -1,7 +1,4 @@
 # Backend take-home exercise for Converge
-| Statements | Branches | Functions | Lines |
-| -----------|----------|-----------|-------|
-| ![Statements](#statements#) | ![Branches](#branches#) | ![Functions](#functions#) | ![Lines](#lines#) |
 The purpose of this exercise is to test your ability to build a basic data
 ingestion server in node.js.
 

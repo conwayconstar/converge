@@ -11,9 +11,8 @@
     "http-server"
   ],
   "scripts": {
-    "test": "jest",
+    "test": "jest --coverage",
     "test:watch": "jest --watchAll",
-    "test:badges": "jest && jest-coverage-badges",
     "start": "tsc & node dist/index.js",
     "dev": "tsc-watch --onSuccess \"node ./dist/index.js\""
   },
@@ -31,7 +30,6 @@
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.17.1",
     "jest": "^26.1.0",
-    "jest-coverage-badges": "^1.1.2",
     "ts-jest": "^26.1.1",
     "tsc-watch": "^4.2.9",
     "typescript": "^3.9.5"

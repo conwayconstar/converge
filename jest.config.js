@@ -10,11 +10,5 @@ module.exports = {
     '^@Models/(.*)': '<rootDir>/src/models/$1',
     '^@Middleware/(.*)': '<rootDir>/src/middleware/$1',
     '^@Database': '<rootDir>/src/database.ts',
-  },
-  coverageReporters: [
-    'json-summary',
-    'text',
-    'lcov',
-  ],
-  collectCoverage: true,
+  }
 };
